@@ -5,6 +5,7 @@ ffmpeg 批处理、Agent 工作流、直播现场的网络与弱电。
 
 **在做什么**
 
+- 🚀 交付工具链（FDE 视角）：客户环境自检（13 项 preflight + 报告）、交付交接包生成（清单 / 运维手册 / 验收单）
 - 📊 直播与投流分析工具：场次复盘（GMV / 净成交 / 退款率 / UV 价值 + 诊断规则）、千川日报（四象限分层 + 异常检测）
 - 🔧 素材与巡检工具链（Python + ffmpeg）：视频拼接/转码、按日期归档、内网巡检与资产台账
 - 🤖 Agent 工作流：选品 / 排品 / 复盘自动化，Python + SQL 数据管道
@@ -18,6 +19,8 @@ ffmpeg 批处理、Agent 工作流、直播现场的网络与弱电。
 
 | 仓库 | 一句话 |
 |---|---|
+| [deploy-doctor](https://github.com/19X19BTR/deploy-doctor) | 交付前环境自检：13 项检查（内存/端口/DNS/权限/防火墙），输出 Markdown/JSON 报告 |
+| [handover-kit](https://github.com/19X19BTR/handover-kit) | 交付交接包：一份配置生成交付清单 / 运维手册 / 验收单 / FAQ |
 | [live-session-review](https://github.com/19X19BTR/live-session-review) | 直播场次复盘：CSV 进，指标 + 9 条诊断规则 + 自包含 HTML 报告 |
 | [qianchuan-daily-report](https://github.com/19X19BTR/qianchuan-daily-report) | 千川投流日报：四象限分层 + 异常检测 + 三段式 Markdown 日报 |
 | [lan-inspector](https://github.com/19X19BTR/lan-inspector) | 内网巡检：扫网段、识别打印机/NAS/监控，输出资产台账与巡检建议 |
