@@ -23,5 +23,6 @@ ffmpeg 批处理、Agent 工作流、直播现场的网络与弱电。
 | [video-upload-scheduler](https://github.com/19X19BTR/video-upload-scheduler) | 抖音 / 视频号 / 快手 / 小红书 四平台定时批量上传：排期、断点续传、风控间隔 |
 | [vertical-text-watermark](https://github.com/19X19BTR/vertical-text-watermark) | 竖排中文水印，逐帧渲染、保留音轨 |
 | [docx-number-splitter](https://github.com/19X19BTR/docx-number-splitter) | Word 文档按行首序号批量拆分 |
+| [video-fingerprint](https://github.com/19X19BTR/video-fingerprint) | MP4/MOV 容器元数据批量重写，为自有素材生成多份文件级标识不同的拷贝（Windows 桌面端） |
 
 📫 fiddlestickstang@outlook.com ｜ 广州
